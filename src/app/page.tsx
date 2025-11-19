@@ -108,7 +108,7 @@ const blob = new Blob([arrayBuffer], { type: "application/pdf" });
         </div>
       </section>
 
-      {/* Servicios base (A-E) */}
+      {/* Servicios base (A-E) 
       <section className="bg-green-50 p-4 rounded-xl shadow">
         <h2 className="text-lg font-semibold text-green-800 mb-2">Servicios</h2>
 
@@ -135,7 +135,7 @@ const blob = new Blob([arrayBuffer], { type: "application/pdf" });
             />
           </div>
         ))}
-      </section>
+      </section>*/}
 
       {/* Servicios adicionales */}
       <ServiciosAdicionales onChange={setServiciosExtra} />
